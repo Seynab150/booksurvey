@@ -1,0 +1,165 @@
+:root {
+  --color-grey: rgb(177, 179, 179);
+  --color-turquiose: rgb(214, 161, 26);
+  --color-turquiose-light: rgba(218, 165, 32, 0.746);
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;  
+  background: var(--color-grey);
+  background-image: url(images/bookback.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -150px;
+
+}
+
+@media (max-width:800px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width:480px){
+  .container {
+    max-width: 540px;
+    padding: 40px;
+  }
+}
+
+
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 20px;
+    margin: 0 0 8px;
+    font-size: 22px;
+}
+
+
+label {
+    display: flex;
+    align-items: center;
+    margin: 0 0 8px;
+    font-size: 22px;
+}
+   
+
+header {
+  margin: 0px 0px 30px;
+  padding: 0px 10px;
+  text-align: center;
+  border-radius: 5px; 
+
+}
+
+.container {
+    width: 100%;
+    margin: 50px auto 0px auto;
+    max-width: 720px;
+}
+
+
+#title {
+  color: var(--color-turquiose);
+  font-weight: 100;
+  font-size: 40;
+}
+
+
+#description {
+  color: black;
+  font-weight: 20;
+  text-shadow: var(--color-turquiose);
+  color: var(--color-turquiose);
+  font-size: 21px;
+}
+
+
+.form-group {
+    margin: 0 0px 20px;
+    padding: 4px;
+}
+
+
+
+.form-control {
+background-color: white;
+padding: 6px 12px;
+height: 38px;
+display: block;
+width: 100%;
+color: var(--color-grey);
+border: 1px solid #bcc1c7;
+border-radius: 5px;
+font-size: 15px;
+}
+
+
+#survey-form {
+  padding: 40px 10px;
+  background-color: var(--color-turquiose-light);
+  display: block;
+  border-radius: 5px;
+}
+
+.optional {
+  margin-left: 4px;
+  font-size: 14.5px;
+}
+
+
+.input-radio {
+  display: inline-block;
+  margin-right: 10px;
+  min-height: 20px;
+  min-width: 20px;
+  font-size: 20px;
+}
+
+.input-checkbox {
+  display: inline-block;
+  margin-right: 10px;
+  min-height: 20px;
+  min-width: 20px;
+  font-size: 20px;
+}
+
+#comments {
+  background-color: white;
+  padding: 10px;
+  min-height: 120px;
+  width: 100%;
+  resize: vertical;
+  color: var(--color-grey);
+  border: 1px solid var(--color-grey);
+  border-radius: 5px; 
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  padding: 12px; 
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid var(--color-grey);
+  font-size: 20;
+  background-color: rgb(205, 206, 206);
+  border: none
+}
+
+::placeholder {
+color: var(--color-grey);
+}
