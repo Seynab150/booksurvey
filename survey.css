@@ -12,7 +12,7 @@ body {
   line-height: 1.4;
   margin: 0;  
   background: var(--color-grey);
-  background-image: url(images/bookback.jpg);
+  background-image: url(Images/bookback.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: -150px;
